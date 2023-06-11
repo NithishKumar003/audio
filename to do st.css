@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: rgb(249, 136, 136);
+}
+main{
+    display: inline-block;
+    justify-content: baseline;
+}
+#tasks .task{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+#tasks .task .content .text{
+    padding: 12px;
+    background-color: rgb(238, 194, 136);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 380px;
+    font-size: 18px;
+}
+.actions .edit{
+    padding: 12px;
+    background-color: rgb(238, 205, 161);
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: rgb(108, 177, 108);
+}
+.actions .delete{
+    padding: 12px;
+    background-color: rgb(245, 204, 150);
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: rgb(193, 41, 41);
+}
+#new-task-input{
+        padding: 12px;
+        background-color: rgb(237, 199, 150);
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 420px;
+        font-size: 18px;
+
+}
+#new-task-submit{
+    padding: 12px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+}
